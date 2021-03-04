@@ -12,6 +12,7 @@ const path = require('path');
 // const User = require('./models/adminModel')
 // //const Sales = require('./models/salesModel')
 // // Creates an express server
+var PORT = process.env.PORT || 3004;
 const server = express();
 // //Setting the Engine view which contains the pug file
 // server.set('view engine', 'pug');
@@ -51,7 +52,7 @@ server.get('/preview',(req,res)=>{
     res.sendFile(path.join(__dirname,'preview.html'))
 })
 
-server.listen(3004, () => {
+server.listen(PORT, () => {
     console.log('Listening on 3004');
 
 })

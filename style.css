@@ -1,0 +1,9 @@
+#boddy{
+    background-image: url("./ParliamentofUganda.jpg");
+    background-size: cover;
+background-repeat: no-repeat ;
+height: 850px;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
